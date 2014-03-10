@@ -46,7 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CircleFollowing.cs" />
+     <Compile Include="Assets\CreatePath.cs" />
+     <Compile Include="Assets\CubeArrive.cs" />
      <Compile Include="Assets\Moveto.cs" />
+     <Compile Include="Assets\Rotate.cs" />
      <Compile Include="Assets\SeekExam.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
